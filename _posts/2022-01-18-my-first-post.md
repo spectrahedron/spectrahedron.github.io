@@ -9,3 +9,6 @@ author: "Vera Roshchina"
 
 Second paragraph
 
+Testing LaTeX:
+
+$$ \int_0^1 x^2 d\, x $$
