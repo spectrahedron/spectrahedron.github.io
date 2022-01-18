@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "My first test post"
-author: Vera Roshchina
+author: "Vera Roshchina"
+
 ---
 
 # Welcome
