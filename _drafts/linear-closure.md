@@ -14,9 +14,16 @@ First things first. The setting for all this business is a general real vector s
 
 Now consider some convex set in the Euclidean space, for instance, this triangle that lives in the plane and lacks some parts of its boundary:
 
-![A triangle with deficient faces](/assets/images/triangle.jpg){:class="img-responsive"}
+![A triangle with deficient faces](/assets/images/triangle.jpg)
 
-In the absence of topology we can describe the closure of this triangle using intersections with lines. Any intersection of this triangle with a line is a line segment due to convexity, so we can simply collect all the endpoints of such line segments and add them to the set. That way we recover the boundary of our triangle. In the finite-dimensional setting this linear boundary coincides with the topological boundary. 
+In the absence of topology we can describe the closure of this triangle using intersections with lines. Any intersection of this triangle with a line is a line segment due to convexity, so we can simply collect all the endpoints of such line segments and add them to the set. That way we recover the boundary of our triangle. In the finite-dimensional setting this linear boundary coincides with the topological boundary. Moreover, we can define a closed convex set as such set that any intersection of this set with a straight line is a closed line segment. The smallest closed convex set containing our convex set coincides with its linear closure. 
+
+This clean picture falls apart once we leave the finite-dimensional setting. An immediate observation tells us that 
+
+
+far less consistent when we leave the cosy finite-dimensional setting. 
+
+
 
 
 this triangle in a line segment (that may be closed, open, half-open, degenerate or empty). In all of these cases we can clearly identify the points that lie in the interior of this line segment as well as the onese lying on its boundary. 
